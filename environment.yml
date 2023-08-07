@@ -1,0 +1,24 @@
+name: fair_rmab
+channels:
+  - gurobi
+  - https://conda.anaconda.org/gurobi
+  - defaults
+dependencies:
+  - scipy
+  - seaborn
+  - ipykernel
+  - psycopg2
+  - tqdm
+  - networkx
+  - statsmodels
+  - sympy
+  - python=3.8.5
+  - matplotlib
+  - pandas
+  - dill
+  - pip
+  - pip:
+    - ray
+    - gurobipy
+    - mysql-connector-python
+    - scikit-learn
